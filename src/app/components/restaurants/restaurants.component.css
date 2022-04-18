@@ -1,0 +1,97 @@
+
+.restaurants_container{
+    margin-top: 30px;
+    width: 81%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    min-height: 250px;
+}
+
+.restaurants_title{
+    display: flex;
+    align-items: center;
+}
+
+.restaurants_title_image img{
+    width: 34px;
+}
+
+.restaurants_title_text{
+    color: #3a3838;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.restaurants_body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+
+.restaurant_container{
+
+    height: 250px;
+    width: 350px;
+    box-shadow: 0 30px 40px -10px rgba(26,77,160,.12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 7.5px;
+}
+
+.restaurant_image{
+    height: 68%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.restaurant_body{
+    width: 97%;
+    margin-top: 11px;
+    position: relative;
+}
+
+.restaurant_top{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 98%; 
+    height: 20%;
+}
+
+.restaurant_name{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.restaurant_delivery-takeaway{
+    display: flex;
+    align-items: center;
+}
+
+.restaurant_delivery-takeaway img{
+    height: 15px; 
+    width: 15px;
+    margin-left: 3px;
+    margin-right: 3px;
+} 
+
+.restaurant_description{
+    color: grey;
+    margin-top: 5px;
+}
+
+.restaurant_city{
+    color: #000;
+    font-weight: 500;
+    right: 2px;
+    bottom: 3px;
+}

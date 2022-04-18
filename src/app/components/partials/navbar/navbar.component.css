@@ -1,0 +1,48 @@
+.navbar_countainer{
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+    background-color: #21ccbb;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 5px 10px;
+    background-color: #21ccbb;
+    min-height: 50px;
+    max-height: 50px;
+}
+
+.logo{
+    align-items: center;
+    justify-content: start;
+    width: 20%;
+}
+
+.logo img{
+    height: 50px;
+    width: 163px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.delivery_address{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 50px;
+    cursor: pointer;
+}
+
+.first_line{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.second_line{
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}

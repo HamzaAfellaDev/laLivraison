@@ -1,0 +1,28 @@
+<div class="restaurants_body">
+    <div class="restaurant_container">
+        <img class="restaurant_image" src="{{restaurantSelected.image}}">
+        <div class="restaurant_body">
+            <div class="restaurant_top">
+                <div class="restaurant_name">{{restaurantSelected.name}}</div>
+                <div class="restaurant_delivery-takeaway">
+                    <div class="delivery_status">
+                        <span [ngStyle]="{'color': restaurantSelected.delivery?'green':'red'}">Livraison </span>
+                        <img *ngIf="restaurantSelected.delivery" src="../../../assets/images/ok.png">
+                        <img *ngIf="!restaurantSelected.delivery" src="../../../assets/images/not_ok.png">
+                    </div>
+                    <div class="takeaway_status">
+                        <span [ngStyle]="{'color': restaurantSelected.takeaway?'green':'red'}">Emporter </span>
+                        <img *ngIf="restaurantSelected.takeaway" src="../../../assets/images/ok.png">
+                        <img *ngIf="!restaurantSelected.takeaway" src="../../../assets/images/not_ok.png"> 
+                    </div>
+                </div>
+            </div>
+            <div class="restaurant_description">
+                {{restaurantSelected.description}}
+            </div>
+            <div class="restaurant_city">
+                {{restaurantSelected.city}}
+            </div>
+        </div>
+    </div>  
+</div>

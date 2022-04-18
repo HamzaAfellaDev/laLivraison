@@ -1,0 +1,41 @@
+
+<div class="restaurants_container">
+   
+    <div class="restaurants_title">
+        <div class="restaurants_title_image">
+            <img src="https://lalivraison.ma/assets/images/categories/restaurants.png">
+        </div>
+        <div class="restaurants_title_text">
+            Restaurants
+        </div>
+    </div>  
+
+    <div class="restaurants_body">
+        <div  class="restaurant_container" *ngFor="let restaurant of restaurants" (click)="getSelectedRestaurant(restaurant.id)">
+            <img class="restaurant_image" src="{{restaurant.image}}">
+            <div class="restaurant_body">
+                <div class="restaurant_top">
+                    <div class="restaurant_name">{{restaurant.name}}</div>
+                    <div class="restaurant_delivery-takeaway">
+                        <div class="delivery_status">
+                            <span [ngStyle]="{'color': restaurant.delivery?'green':'red'}">Livraison </span>
+                            <img *ngIf="restaurant.delivery" src="../../../assets/images/ok.png">
+                            <img *ngIf="!restaurant.delivery" src="../../../assets/images/not_ok.png">
+                        </div>
+                        <div class="takeaway_status">
+                            <span [ngStyle]="{'color': restaurant.takeaway?'green':'red'}">Emporter </span>
+                            <img *ngIf="restaurant.takeaway" src="../../../assets/images/ok.png">
+                            <img *ngIf="!restaurant.takeaway" src="../../../assets/images/not_ok.png"> 
+                        </div>
+                    </div>
+                </div>
+                <div class="restaurant_description">
+                    {{restaurant.description}}
+                </div>
+                <div class="restaurant_city">
+                    {{restaurant.city}}
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>
