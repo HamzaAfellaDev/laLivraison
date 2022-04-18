@@ -1,5 +1,5 @@
 # restaurants_db.json
-in src folder we have restaurants_db.json
+in folder project we have restaurants_db.json
 It contains a JsonServer database of restaurants
 
 Step 1: npm install -g json-server
