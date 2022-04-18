@@ -1,0 +1,41 @@
+{
+  "restaurants":[
+      {
+          "id": 1,
+          "name": "AL MOUNIA",
+          "image": "https://lalivraison.ma/assets/logos/almounia/logo_927.jpg",
+          "delivery": true,
+          "takeaway": true,
+          "description":"SPECIALITÉS MAROCAINES",
+          "city":"Casablanca"
+      },
+      {
+          "id": 2,
+          "name": "Feel Frit",
+          "image": "https://lalivraison.ma/assets/logos/feelfrit/logo_932.jpg",
+          "delivery": true,
+          "takeaway": false,
+          "description":"LE POULET QUI VOUS DONNE DES AILES!",
+          "city":"Casablanca"
+      },
+      {
+        "id": 3,
+        "name": "HOMIES",
+        "image": "https://lalivraison.ma/assets/logos/homies/image__1635332937188664.jpg",
+        "delivery": false,
+        "takeaway": true,
+        "description":"CUISINE CONNECTÉE 2.0",
+        "city":"Casablanca"
+      },
+      {
+        "id": 4,
+        "name": "JOA 2 MARS",
+        "image": "https://lalivraison.ma/assets/logos/joa/logo_509.jpg",
+        "delivery": false,
+        "takeaway": false,
+        "description":"ASIA & KOREAN TAKEAWAY",
+        "city":"Casablanca"
+      }
+
+  ]
+}
